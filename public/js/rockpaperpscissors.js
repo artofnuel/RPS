@@ -96,7 +96,7 @@ const endGame = (totalScore) => {
     totalScore['computercore'] = 0
     player.innerText = `Player's Choice:`
     computer.innerText = `Computer's Choice:`
-    scoreResult.innerText = `Your Score:`
+    scoreResult.innerText = `Your Score: 0`
 };
 
 // Now for the conditionals.
